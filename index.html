@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>FastExpress</title>
+
+</head>
+<body>
+  
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active"><i class='fas fa-shipping-fast'></i>FastExpress</a>
+    <a href="login.php" class="login">Log In</a>
+  </div>
+
+  <div class="text">
+    <span>The Best & Relaiable Choice</span>
+  </div>
+  
+  <!-- <div class="home">
+    <img src="pic2.jpg" id="img1" alt=""> -->
+    
+    <div class="container-silde">
+      <div class="slide">
+        <img src="img/pic5.jpg" alt="">
+      </div>
+
+      <div class="slide">
+        <img src="img/pic2.jpg" alt="">
+      </div>
+
+      <div class="slide">
+        <img src="img/pic3.jpg" alt="">
+      </div>
+
+      <div class="slide">
+        <img src="img/pic4.png" alt="">
+      </div>
+    </div>
+
+    <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
+    <span class="arrow next" onclick="controller(1)">&#10095;</span>
+  </div>
+
+    <div class="tracking">
+      <form action="landing_run.php" class="track-form" method="post">
+        <input type="text" name="numb" id="track" placeholder="Enter Your Tracking Number">
+        <input type="submit" name="submit" value="Track" id="buton">
+      </form>
+    </div>
+    
+  <script src="script.js"></script>
+
+</body>
+</html>
